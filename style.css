@@ -7,11 +7,17 @@
 }
 .link, .features-description {
     font-family: 'Raleway', sans-serif;
+    color: hsl(238, 22%, 44%);
 }
 .features-title {
     font-family: 'Open San', sans-serif;
+    color: hsl(243, 87%, 12%);
 }
-.navbar-container, .features-container{
+.navbar-container, .features-container {
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.navbar-container, .first-section{
     display: flex;
 }
 .illustration {
@@ -22,11 +28,24 @@
 /* Desktop style */
 /* Navbar */
 .navbar-container {
-    margin-left: 55px;
-    margin-right: 55px;
     margin-top: 65px;
+    margin-bottom: 155px;
 }
 .navbar-button {
     margin-left: auto;
 }
+.link {
+    text-decoration: none;
+    padding-left: 35px;
+}
 /* Section */
+.features-container {
+}
+.features-title {
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+.features-description {
+    margin-bottom: 25px;
+}
