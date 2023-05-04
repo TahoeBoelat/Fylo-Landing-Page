@@ -1,0 +1,32 @@
+/* Utilities */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.link, .features-description {
+    font-family: 'Raleway', sans-serif;
+}
+.features-title {
+    font-family: 'Open San', sans-serif;
+}
+.navbar-container, .features-container{
+    display: flex;
+}
+.illustration {
+    width: 550px;
+    height: 325px;
+}
+/* End of Utilities */
+/* Desktop style */
+/* Navbar */
+.navbar-container {
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 65px;
+}
+.navbar-button {
+    margin-left: auto;
+}
+/* Section */
