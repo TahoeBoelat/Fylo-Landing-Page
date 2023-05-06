@@ -24,6 +24,24 @@
     width: 550px;
     height: 325px;
 }
+.email-form-style {
+    width: 320px;
+    height: 48px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 15px;
+    margin-right: 15px;
+}
+.submit-email-form-btn {
+    font-family: 'Open San', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background: hsl(224, 93%, 58%);
+    width: 150px;
+    height: 48px;
+}
 /* End of Utilities */
 /* Desktop style */
 /* Navbar */
